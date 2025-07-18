@@ -4915,18 +4915,18 @@ function Compkiller:SetTheme(name)
 		};
 	elseif name == "Default" then
 		Compkiller.Colors = {
-		Highlight = Color3.fromRGB(191, 128, 255),
-Toggle = Color3.fromRGB(170, 85, 255),
-Risky = Color3.fromRGB(255, 99, 251),
-BGDBColor = Color3.fromRGB(26, 18, 34),
-BlockColor = Color3.fromRGB(35, 25, 47),
-StrokeColor = Color3.fromRGB(52, 39, 70),
-SwitchColor = Color3.fromRGB(220, 190, 255),
-DropColor = Color3.fromRGB(44, 30, 61),
-MouseEnter = Color3.fromRGB(70, 50, 95),
-BlockBackground = Color3.fromRGB(50, 35, 75),
-LineColor = Color3.fromRGB(90, 70, 120),
-HighStrokeColor = Color3.fromRGB(65, 48, 95),
+			Highlight = Color3.fromRGB(17, 238, 253),
+			Toggle = Color3.fromRGB(14, 203, 213),
+			Risky = Color3.fromRGB(251, 255, 39),
+			BGDBColor = Color3.fromRGB(22, 24, 29),
+			BlockColor = Color3.fromRGB(28, 29, 34),
+			StrokeColor = Color3.fromRGB(37, 38, 43),
+			SwitchColor = Color3.fromRGB(255, 255, 255),
+			DropColor = Color3.fromRGB(33, 35, 39),
+			MouseEnter = Color3.fromRGB(55, 58, 65),
+			BlockBackground = Color3.fromRGB(39, 40, 47),
+			LineColor = Color3.fromRGB(65, 65, 65),
+			HighStrokeColor = Color3.fromRGB(55, 56, 63),
 		};
 	elseif name == "Dark Blue" then
 		Compkiller.Colors = {
