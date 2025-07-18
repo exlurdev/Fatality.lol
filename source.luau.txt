@@ -4930,19 +4930,19 @@ function Compkiller:SetTheme(name)
 		};
 	elseif name == "Dark Blue" then
 		Compkiller.Colors = {
-			["BGDBColor"] = Color3.new(0.0393817, 0.0754204, 0.165517),
-			["BlockBackground"] = Color3.new(0, 0.0618311, 0.172414),
-			["BlockColor"] = Color3.new(0, 0.0172414, 0.103448),
-			["DropColor"] = Color3.new(0, 0.0965518, 0.289655),
-			["HighStrokeColor"] = Color3.new(0, 0.132604, 0.234483),
-			["Highlight"] = Color3.new(0.0666667, 0.781528, 0.992157),
-			["LineColor"] = Color3.new(0, 0.110345, 0.275862),
-			["MouseEnter"] = Color3.new(0, 0.606896, 1),
-			["Risky"] = Color3.new(0.0310345, 0.819572, 1),
-			["StrokeColor"] = Color3.new(0, 0.119857, 0.248276),
-			["SwitchColor"] = Color3.new(1, 1, 1),
-			["Toggle"] = Color3.new(0.054902, 0.463935, 0.835294)
-		}
+	["BGDBColor"] = Color3.new(0.102, 0.071, 0.133),            -- Dark Purple-Grey
+	["BlockBackground"] = Color3.new(0.196, 0.137, 0.294),      -- Purple Block BG
+	["BlockColor"] = Color3.new(0.137, 0.098, 0.184),           -- Slightly lighter purple-black
+	["DropColor"] = Color3.new(0.173, 0.118, 0.239),            -- Deep Purple
+	["HighStrokeColor"] = Color3.new(0.255, 0.188, 0.373),      -- Brighter Stroke
+	["Highlight"] = Color3.new(0.749, 0.502, 1),                -- Light Purple
+	["LineColor"] = Color3.new(0.353, 0.275, 0.471),            -- Accent Line
+	["MouseEnter"] = Color3.new(0.275, 0.196, 0.373),           -- Hover Purple
+	["Risky"] = Color3.new(1, 0.388, 0.984),                    -- Neon Pink-Purple
+	["StrokeColor"] = Color3.new(0.204, 0.153, 0.275),          -- Mid Purple
+	["SwitchColor"] = Color3.new(0.863, 0.745, 1),              -- Soft Lavender
+	["Toggle"] = Color3.new(0.667, 0.333, 1)                    -- Medium Purple
+}
 	elseif name == "Purple Rose" then
 		Compkiller.Colors = {
 			["BGDBColor"] = Color3.new(0.0459068, 0.030321, 0.117241),
